@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 4rem;
+    background-color: #49243E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 2rem;
+}
+.icon{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-right: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+img:hover{
+    opacity: 0.7;
+    border: 0.3rem solid black;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#zero{
+    font-size: 3rem;
+    gap: 5rem;
+}
+.score{
+    font-size: 2rem;
+    gap: 2rem;
+}
+#comp{
+    margin-left: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #49243E;
+    color: white;
+    border-radius: 1rem;
+}
